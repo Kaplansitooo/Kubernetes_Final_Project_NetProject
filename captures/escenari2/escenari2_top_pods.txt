@@ -1,0 +1,4 @@
+NAME                                CPU(cores)   MEMORY(bytes)   
+nginx-deployment-68479bb477-2smb9   0m           6Mi             
+nginx-deployment-68479bb477-4nf7k   0m           7Mi             
+nginx-deployment-68479bb477-5sq8m   0m           7Mi             

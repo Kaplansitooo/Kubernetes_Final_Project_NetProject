@@ -1,0 +1,2 @@
+NAME        REFERENCE                     TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+nginx-hpa   Deployment/nginx-deployment   cpu: 0%/20%   1         5         3          7m10s

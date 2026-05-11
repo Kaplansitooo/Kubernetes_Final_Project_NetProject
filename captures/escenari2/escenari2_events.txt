@@ -1,0 +1,13 @@
+LAST SEEN   TYPE     REASON              OBJECT                                   MESSAGE
+2m54s       Normal   Scheduled           pod/nginx-deployment-68479bb477-2smb9    Successfully assigned default/nginx-deployment-68479bb477-2smb9 to minikube
+2m54s       Normal   Scheduled           pod/nginx-deployment-68479bb477-4nf7k    Successfully assigned default/nginx-deployment-68479bb477-4nf7k to minikube
+2m55s       Normal   SuccessfulCreate    replicaset/nginx-deployment-68479bb477   Created pod: nginx-deployment-68479bb477-4nf7k
+2m55s       Normal   SuccessfulCreate    replicaset/nginx-deployment-68479bb477   Created pod: nginx-deployment-68479bb477-2smb9
+2m55s       Normal   ScalingReplicaSet   deployment/nginx-deployment              Scaled up replica set nginx-deployment-68479bb477 from 1 to 3
+2m55s       Normal   SuccessfulRescale   horizontalpodautoscaler/nginx-hpa        New size: 3; reason: cpu resource utilization (percentage of request) above target
+2m54s       Normal   Pulled              pod/nginx-deployment-68479bb477-2smb9    Container image "nginx:1.25" already present on machine and can be accessed by the pod
+2m54s       Normal   Created             pod/nginx-deployment-68479bb477-2smb9    Container created
+2m54s       Normal   Started             pod/nginx-deployment-68479bb477-2smb9    Container started
+2m54s       Normal   Pulled              pod/nginx-deployment-68479bb477-4nf7k    Container image "nginx:1.25" already present on machine and can be accessed by the pod
+2m54s       Normal   Created             pod/nginx-deployment-68479bb477-4nf7k    Container created
+2m54s       Normal   Started             pod/nginx-deployment-68479bb477-4nf7k    Container started
